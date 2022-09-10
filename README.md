@@ -1,5 +1,5 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: https://shaoting-yan.github.io/PUI-homework
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/Shaoting-Yan/PUI-homework

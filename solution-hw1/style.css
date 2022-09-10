@@ -59,12 +59,12 @@ h1 {
     width: 150px;
 }
 
-.gallery img{
+.index img{
     float:none;
     border: 3px solid black;
     width: 200px;
 }
-.gallery div{
+.index div{
     margin:auto;
     text-align: left;
     width: 206px;
@@ -107,16 +107,16 @@ label{
     left: -100px;
 }
 
-.gallery a{
+.index a{
     white-space: normal;
     line-height: 100%;
     text-decoration-line: underline;
 }
 
-.gallery div:hover{
+.index div:hover{
     background-color: yellow;
 }
 
-.gallery p{
+.index p{
     text-align:left;
 }
