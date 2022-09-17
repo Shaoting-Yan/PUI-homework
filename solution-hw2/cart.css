@@ -1,0 +1,56 @@
+header {
+    width: 1200px;
+    display: flex;
+}
+
+#logo {
+    margin:20px;
+}
+
+#headerinfo {
+    width: 800px;
+}
+
+main{
+    margin: 80px 0 0 440px;
+    display:flex;
+    flex-direction:column;
+}
+
+hr{
+    height: 5px;
+    border: none;
+    color:black;
+}
+
+.itemrow{
+    display:flex;
+    height: 175px;
+    margin:0 50px 0 0;
+    object-fit:contain;
+}
+
+.itemrow img{
+    border:solid 3px black;
+}
+
+.itemrow p{
+    font-size:130%;
+}
+
+.itemrow div{
+    width:100%;
+    display:flex;
+    white-space:pre-line;
+    padding:0 0 0 50px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.checkout {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    margin:0 50px 0 0;
+    padding:0 0 0 225px;
+}
