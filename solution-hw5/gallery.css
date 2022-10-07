@@ -1,0 +1,36 @@
+#gallery{
+    width:1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.module {
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    margin: 20px 0;
+    padding:5px;
+    object-fit: contain;
+    font-size: 150%;
+}
+
+.module:hover {
+    background-color:yellow;
+}
+
+.module img{
+    border: 3px solid black;
+}
+
+.module p{
+    margin:0px;
+}
+
+.productname {
+    padding:15px 0px 5px 0px;
+    text-decoration:underline;
+}
+
+.productname:hover{
+    font-weight: 600;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600;900&display=swap');
+* {
+    font-family: 'Inter';
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.button{
+    padding:15px 30px;
+    background-color:yellow;
+    border:solid 3px black;
+    font-weight:600;
+}
+
+.button:active{
+    background-color:rgb(120, 129, 0);
+}

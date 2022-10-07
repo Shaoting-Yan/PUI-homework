@@ -1,0 +1,40 @@
+header {
+    width: 1200px;
+    display: flex;
+}
+
+#logo {
+    margin:20px;
+}
+
+#headerinfo {
+    width: 700px;
+}
+
+#headerinfo h1 {
+    font-size: 200%;
+    padding: 75px 0 0 0;
+    text-transform: capitalize;
+}
+
+
+nav {
+    display:flex;
+    height: 150px;
+    justify-content: flex-end;
+    align-items:center;
+    border-bottom: solid black 5px;
+}
+
+nav > a{
+    display: inline-block;
+    font-size: 200%;
+    margin: 0 60px 0 0;
+    height: 1em;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: yellow;
+    font-weight: 600;
+}
